@@ -13,6 +13,6 @@ private:
     SDL_Window *window;
     SDL_Renderer *renderer;
 public:
-    gamer(int width, int height);
+    gamer(int width, int height, Uint32 flags);
     ~gamer();
 };
