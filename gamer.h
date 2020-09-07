@@ -19,4 +19,7 @@ public:
     void events();
     void render();
     void update();
+    bool isRunning() {
+        return running;
+    }
 };
