@@ -12,7 +12,11 @@ private:
     /* data */
     SDL_Window *window;
     SDL_Renderer *renderer;
+    bool running;
 public:
     gamer(int width, int height, Uint32 flags);
     ~gamer();
+    void events();
+    void render();
+    void update();
 };
